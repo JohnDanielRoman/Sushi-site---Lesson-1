@@ -1,3 +1,56 @@
-h1, h2 {
-  font-family: Lato;
+.body {
+  width: 60%;
+  margin: auto;
+   display: grid;
+  grid-template-areas:
+    'select select select select select select'
+    'firstm firstm firstm firstm firstm firstm'
+    'nav-bottom nav-bottom nav-bottom nav-bottom nav-bottom nav-bottom'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  font-size: 16px;
+
+ 
 }
+
+.select { grid-area: select; }
+.firstm { grid-area: firstm; }
+.nav-bottom { grid-area: nav-bottom; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.item {
+  text-align: right;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.up-menu {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: gray;
+}
+.link:hover, .link2:hover {
+  color: lightgray;
+}
+
+.link2 {
+  text-decoration: none;
+  color: tomato;
+}
+
+
+/*       Nav Right up        */
+
+.nav-right {
+  display: inline;
+}
+
+
+
+
+
+
